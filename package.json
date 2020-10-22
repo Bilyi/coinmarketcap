@@ -1,7 +1,7 @@
 {
-    "name": "jsonplaceholder",
+    "name": "coinmarketcap",
     "version": "1.0.0",
-    "description": "Jsonplaceholder React",
+    "description": "Coinmarketcap React",
     "main": "src/index.js",
     "scripts": {
         "start": "webpack-dev-server --progress --colors"

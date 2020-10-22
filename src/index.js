@@ -2,15 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { initStore } from './js/state/store';
-import Main from './js/components/routes/main';
 
 import './css/style.scss';
+import CoinsList from './js/components/coins/coins-list';
 
 const store = initStore();
 
 ReactDOM.render(
     <Provider store={store}>
-        <Main/>
+        <CoinsList/>
     </Provider>,
     document.getElementById('app')
 );
